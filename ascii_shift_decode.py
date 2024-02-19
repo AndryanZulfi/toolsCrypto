@@ -8,5 +8,5 @@ def ascii_caesar_shift(message, distance):
         encrypted += chr(value % 128) #128 for ASCII
     return encrypted
     
-mess = '2m{y!”%w2\’z{&o2UfX~ws%!._s+{ (&@Vwu{ (&@_w%{v{(&0'
+mess = str(input("Masukkan pesan yg terenkrip: "))
 print(ascii_caesar_shift(mess, -18))
